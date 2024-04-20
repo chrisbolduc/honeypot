@@ -1,6 +1,4 @@
 <?php
-        require_once("log_to_file.php");
-
         $ip = getenv("REMOTE_ADDR");
         $httprefi = getenv ("HTTP_REFERER");
         $httpagenti = getenv ("HTTP_USER_AGENT");
